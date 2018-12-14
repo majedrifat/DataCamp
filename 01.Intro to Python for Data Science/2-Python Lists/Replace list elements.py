@@ -11,7 +11,8 @@ For this and the following exercises, you'll continue working on the areas list 
 Instructions
 100 XP
 Update the area of the bathroom area to be 10.50 square meters instead of 9.50.
-Make the areas list more trendy! Change "living room" to "chill zone".'''
+Make the areas list more trendy! Change "living room" to "chill zone".
+'''
 # Create the areas list
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
 
@@ -20,3 +21,4 @@ areas[9]=10.50
 
 # Change "living room" to "chill zone"
 areas[4] = "chill zone"
+areas_2 = areas_1 + ["garage", 15.45]
